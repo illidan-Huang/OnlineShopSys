@@ -1,0 +1,108 @@
+{
+  "auth": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin",
+      "token": "adminToken"
+    },
+    {
+      "id": 2,
+      "username": "user01",
+      "password": "user01",
+      "role": "user",
+      "token": "user01Token"
+    }
+  ],
+  "dashBoardData": [
+    {
+      "id": 1,
+      "type": "yesterday",
+      "paidMoney": 124345,
+      "visitors": 24391,
+      "paidOrder": 8964,
+      "pageView": 84596
+    },
+    {
+      "id": 2,
+      "type": "today",
+      "paidMoney": 64745,
+      "visitors": 16649,
+      "paidOrder": 4967,
+      "pageView": 47358
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "type": "pendingDelivery",
+      "orderNum": 202504210000,
+      "price": "198",
+      "num": 2,
+      "state": "success",
+      "after": "done",
+      "paymentReceived": "396"
+    },
+    {
+      "id": 2,
+      "type": "pendingDelivery",
+      "orderNum": 202507220000,
+      "price": 198,
+      "num": 1,
+      "state": "success",
+      "after": "customerComplaint",
+      "paymentReceived": 198
+    },
+    {
+      "id": 3,
+      "type": "pendingPayment",
+      "orderNum": 202507230000,
+      "price": 98,
+      "num": 1,
+      "state": "notSure",
+      "after": "none",
+      "paymentReceived": 0
+    },
+    {
+      "id": 4,
+      "type": "pendingPayment",
+      "orderNum": 202507240000,
+      "price": 298,
+      "num": 1,
+      "state": "notSure",
+      "after": "none",
+      "paymentReceived": 0
+    },
+    {
+      "id": 5,
+      "type": "pendingDelivery",
+      "orderNum": 202507160000,
+      "price": 58,
+      "num": 2,
+      "state": "success",
+      "after": "done",
+      "paymentReceived": 116
+    },
+    {
+      "id": 6,
+      "type": "pendingDelivery",
+      "orderNum": 202507170000,
+      "price": 258,
+      "num": 2,
+      "state": "success",
+      "after": "done",
+      "paymentReceived": 516
+    },
+    {
+      "id": 7,
+      "type": "pendingDelivery",
+      "orderNum": 202507170000,
+      "price": 358,
+      "num": 2,
+      "state": "success",
+      "after": "done",
+      "paymentReceived": 716
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+.demo-logo-vertical .logo {
+  display: block;
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+.title {
+  font-weight: bold;
+}
+.header-menu-btn {
+  cursor: pointer;
+}
+.shopInfo-title {
+  font-size: 12px;
+  color: gray;
+}
+.dataShow {
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 140px;
+  background-color: #eee;
+}
+.formItem {
+  width: 269px;
+  margin-right: 14px;
+}
+.ant-form-item-label > label::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+}
